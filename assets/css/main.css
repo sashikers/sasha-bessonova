@@ -1,5 +1,13 @@
 body {
 	background-color: #F0CEA0;
+	/*this makes the footer sticky*/
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
 }
 
 nav {
@@ -9,4 +17,13 @@ nav {
 
 .brand-logo {
 	margin-left: 15px;
+}
+
+.logo {
+	display: inline-block;
+	width: 75px;
+}
+
+li {
+	display: inline-block;
 }
